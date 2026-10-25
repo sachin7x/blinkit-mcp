@@ -14,6 +14,7 @@ import { selectAddressTool } from "./tools/location/select-address.ts";
 
 // Browse tools
 import { searchProductsTool } from "./tools/browse/search-products.ts";
+import { searchStoreProductsTool } from "./tools/browse/search-store-products.ts";
 import { getProductDetailsTool } from "./tools/browse/get-product-details.ts";
 import { browseCategoriesToolDef } from "./tools/browse/browse-categories.ts";
 import { browseCategoryTool } from "./tools/browse/browse-category.ts";
@@ -58,6 +59,7 @@ const ALL_TOOLS: ToolDef[] = [
   getSavedAddressesTool,
   selectAddressTool,
   searchProductsTool,
+  searchStoreProductsTool,
   getProductDetailsTool,
   browseCategoriesToolDef,
   browseCategoryTool,
